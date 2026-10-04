@@ -10,7 +10,7 @@ import "./reference.css";
 export const metadata = {
   title: "Mật Mã Tuồng",
   description: "Vén màn · Giải mã · Cảm nhận nghệ thuật Tuồng Việt Nam.",
-  icons: { icon: "/images/logo-cutout.png", shortcut: "/images/logo-cutout.png" }
+  icons: { icon: "/images/logo-cutout.webp", shortcut: "/images/logo-cutout.webp" }
 };
 
 export default function RootLayout({ children }) {
