@@ -13,12 +13,12 @@ const arts = [
 ];
 
 const characters = [
-  { name: "Kép", src: "684596774_122218272950371878_852960760528266769_n.webp", text: "Nhân vật nam chính, có khí phách, dũng cảm và tài trí; gồm Kép võ, Kép văn và Kép lão." },
-  { name: "Đào", src: "hanam-38-edited-1731625059079.webp", text: "Nhân vật nữ chính, duyên dáng nhưng cũng mạnh mẽ, kiên cường; gồm Đào thương, Đào lẳng và Đào mụ." },
-  { name: "Tướng", src: "683127510_122218272938371878_8485145680440750033_n.webp", text: "Nhân vật có quyền lực, giữ vai trò cầm quân hoặc vị trí quan trọng trong triều đình; nghiêm nghị và quyết đoán." },
-  { name: "Lão", src: "base64-17481581797101292173399.webp", text: "Nhân vật lớn tuổi, từng trải và thông thái; thường là người cố vấn hoặc dẫn dắt mạch truyện." },
-  { name: "Nịnh", src: "eb949b80661523729857486a72b2c8cb.webp", text: "Nhân vật khéo léo, nịnh nọt hoặc hài hước; tạo nên nhịp giải trí và châm biếm trong vở diễn." },
-  { name: "Mụ", src: "473678794_122203428668200183_5296640528376152272_n.webp", text: "Vai nữ trung niên hoặc lớn tuổi, cá tính mạnh và thường giữ vị trí quan trọng trong đời sống nhân vật." }
+  { name: "Kép", src: "kep.jpg", text: "Nhân vật nam chính, có khí phách, dũng cảm và tài trí; gồm Kép võ, Kép văn và Kép lão." },
+  { name: "Đào", src: "dao.jpg", text: "Nhân vật nữ chính, duyên dáng nhưng cũng mạnh mẽ, kiên cường; gồm Đào thương, Đào lẳng và Đào mụ." },
+  { name: "Tướng", src: "tuong.jpg", text: "Nhân vật có quyền lực, giữ vai trò cầm quân hoặc vị trí quan trọng trong triều đình; nghiêm nghị và quyết đoán." },
+  { name: "Lão", src: "lao.jpg", text: "Nhân vật lớn tuổi, từng trải và thông thái; thường là người cố vấn hoặc dẫn dắt mạch truyện." },
+  { name: "Nịnh", src: "ninh.jpg", text: "Nhân vật khéo léo, nịnh nọt hoặc hài hước; tạo nên nhịp giải trí và châm biếm trong vở diễn." },
+  { name: "Mụ", src: "mu.jpg", text: "Vai nữ trung niên hoặc lớn tuổi, cá tính mạnh và thường giữ vị trí quan trọng trong đời sống nhân vật." }
 ];
 
 function Media({ src, alt, className = "", video = false }) {
