@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useLayoutEffect, useRef } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import Footer from "./components/Footer";
 
 function Lantern({ side }) {
@@ -21,6 +21,7 @@ function Curtain({ side }) {
 export default function Home() {
   const aboutRef = useRef(null);
   const musicRef = useRef(null);
+  const [navOnLight, setNavOnLight] = useState(false);
   const topics = ["Tình cảm", "Gia đình", "Học tập", "Sự nghiệp"];
   const chooseTopic = (selectedTopic) => {
     window.location.href = `/trai-bai?chu-de=${encodeURIComponent(selectedTopic)}`;
@@ -35,7 +36,15 @@ export default function Home() {
       entry.target.classList.toggle("motion-past", passed);
     }), { threshold: 0.12, rootMargin: "-7% 0px -7%" });
     motionNodes.forEach((node, index) => { node.classList.add("scroll-motion"); node.style.setProperty("--motion-delay", `${Math.min(index % 4, 3) * 70}ms`); motionObserver.observe(node); });
-    return () => { observer.disconnect(); motionObserver.disconnect(); };
+    const updateNavTone = () => {
+      const about = aboutRef.current;
+      if (!about) return;
+      const bounds = about.getBoundingClientRect();
+      setNavOnLight(bounds.top <= 88 && bounds.bottom >= 0);
+    };
+    updateNavTone();
+    window.addEventListener("scroll", updateNavTone, { passive: true });
+    return () => { observer.disconnect(); motionObserver.disconnect(); window.removeEventListener("scroll", updateNavTone); };
   }, []);
   useLayoutEffect(() => {
     const music = musicRef.current;
@@ -49,9 +58,9 @@ export default function Home() {
   }, []);
   return <main>
     <audio ref={musicRef} src="/audio2.mp3" autoPlay loop preload="auto" aria-hidden="true" />
+    <nav className={`nav ${navOnLight ? "is-on-light" : ""}`}><a className="mark logo-mark" href="#home" aria-label="Mật Mã Tuồng"><img src="/images/logo-cutout.webp" alt="Mật Mã Tuồng" /></a><div className="nav-links"><a href="#about">Khám phá</a><a href="#mat-ma-tuong">Trải bài</a><a href="/gioi-thieu-tuong">Về Tuồng</a></div></nav>
     <section className="hero" id="home">
       <div className="sun" /><div className="cloud one" /><div className="cloud two" /><div className="grain" />
-      <nav className="nav"><a className="mark logo-mark" href="#home" aria-label="Mật Mã Tuồng"><img src="/images/logo-cutout.webp" alt="Mật Mã Tuồng" /></a><div className="nav-links"><a href="#about">Khám phá</a><a href="/gioi-thieu-tuong">Về Tuồng</a></div></nav>
       <Curtain side="left" /><Curtain side="right" /><Lantern side="left" /><Lantern side="right" />
       <div className="hero-mask" aria-hidden="true"><img src="/images/hero-tuong-mask.webp" alt="" /></div>
       <div className="title"><div className="eyebrow">Di sản sân khấu Việt</div><h1>MẬT MÃ<br />TUỒNG</h1><p>Vén màn · Giải mã · Cảm nhận</p><a className="enter" href="#about">Bắt đầu hành trình</a></div>

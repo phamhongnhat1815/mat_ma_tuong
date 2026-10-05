@@ -13,12 +13,12 @@ const arts = [
 ];
 
 const characters = [
-  { name: "Kép", src: "kep.jpg", text: "Nhân vật nam chính, có khí phách, dũng cảm và tài trí; gồm Kép võ, Kép văn và Kép lão." },
-  { name: "Đào", src: "dao.jpg", text: "Nhân vật nữ chính, duyên dáng nhưng cũng mạnh mẽ, kiên cường; gồm Đào thương, Đào lẳng và Đào mụ." },
-  { name: "Tướng", src: "tuong.jpg", text: "Nhân vật có quyền lực, giữ vai trò cầm quân hoặc vị trí quan trọng trong triều đình; nghiêm nghị và quyết đoán." },
-  { name: "Lão", src: "lao.jpg", text: "Nhân vật lớn tuổi, từng trải và thông thái; thường là người cố vấn hoặc dẫn dắt mạch truyện." },
-  { name: "Nịnh", src: "ninh.jpg", text: "Nhân vật khéo léo, nịnh nọt hoặc hài hước; tạo nên nhịp giải trí và châm biếm trong vở diễn." },
-  { name: "Mụ", src: "mu.jpg", text: "Vai nữ trung niên hoặc lớn tuổi, cá tính mạnh và thường giữ vị trí quan trọng trong đời sống nhân vật." }
+  { name: "Kép", src: "kep.jpg", text: "Là vai nam trẻ hoặc trung niên, thường đảm nhận hình tượng nam chính như anh hùng, trung thần, thư sinh hoặc võ tướng trẻ. Kép thường mang tính cách chính trực, dũng cảm, nghĩa khí, có phong thái đường hoàng và mạnh mẽ, với cách hóa trang cân đối và động tác dứt khoát." },
+  { name: "Đào", src: "dao.jpg", text: "Là vai nữ trẻ trong Tuồng, thường đại diện cho thiếu nữ, tiểu thư, công chúa hoặc người vợ trẻ. Nhân vật Đào thường mang vẻ đẹp duyên dáng, mềm mại và giàu cảm xúc, được thể hiện qua lối hóa trang thanh tú, giọng hát trong sáng cùng những động tác nhẹ nhàng, uyển chuyển." },
+  { name: "Tướng", src: "tuong.jpg", text: "Là loại vai đại diện cho các võ tướng và nhân vật cầm quân, nổi bật với vẻ mạnh mẽ, oai phong và khí chất chiến đấu. Vai Tướng thường có lối hóa trang đậm, cách điệu, trang phục và mão giáp cầu kỳ, kết hợp với những động tác võ thuật mạnh mẽ, dứt khoát; tùy nhân vật mà có thể là tướng trung thành, anh dũng hoặc tướng phản diện, hung ác." },
+  { name: "Lão", src: "lao.jpg", text: "Là vai nam cao tuổi, thường xuất hiện dưới hình tượng vua già, quan lớn, người cha, quân sư hoặc trung thần nhiều tuổi. Nhân vật Lão thể hiện sự từng trải, điềm đạm và uy nghiêm, thường có râu tóc bạc, giọng nói trầm, dáng đi và cử chỉ chậm rãi, chắc chắn." },
+  { name: "Nịnh", src: "ninh.jpg", text: "Là loại vai thường đại diện cho gian thần hoặc nhân vật phản diện, mang tính cách xu nịnh, tham quyền, phản trắc và xảo quyệt. Vai Nịnh thường được hóa trang với những đường nét sắc và đậm, kết hợp ánh mắt, nét mặt và cử chỉ để làm nổi bật vẻ gian tà, mưu mô của nhân vật." },
+  { name: "Mụ", src: "mu.jpg", text: "Là vai nữ lớn tuổi, thường đảm nhận hình tượng người mẹ, người bà hoặc phu nhân. Nhân vật Mụ có thể hiền từ, nghiêm khắc hoặc mang tính cách phản diện tùy theo câu chuyện, nhưng thường được thể hiện bằng lối hóa trang già dặn, giọng nói và những động tác chậm rãi để làm nổi bật tuổi tác và sự từng trải." }
 ];
 
 function Media({ src, alt, className = "", video = false }) {
