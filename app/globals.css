@@ -102,6 +102,10 @@ h1,h2,h3{font-family:"LNTH Daybreaker",Georgia,serif!important;font-weight:400!i
 .nav.is-on-light .logo-mark img{filter:brightness(.24) saturate(1.45) contrast(1.2)}
 .nav .nav-links{position:absolute;left:50%;transform:translateX(-50%);align-items:center;justify-content:center}
 
+/* A lighter fixed header leaves more room for the page content. */
+.nav{padding:14px clamp(20px,4vw,56px)!important}
+.nav .logo-mark{height:34px!important;width:clamp(92px,10vw,132px)!important}
+
 /* Give the revealed reading card the full visual weight of its left-hand panel. */
 .reading-focus .focus-card{width:min(100%,220px)!important}
 @media(max-width:680px){.reading-focus .focus-card{width:clamp(155px,48vw,210px)!important}}
