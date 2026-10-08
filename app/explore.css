@@ -15,4 +15,3 @@
 .explore-nav .explore-logo.logo-mark{width:clamp(104px,10vw,142px);height:36px}
 .explore-nav nav{gap:clamp(13px,2vw,30px)}
 @media(max-width:650px){.explore-nav{top:7px;width:calc(100vw - 18px);height:52px;padding:0 16px}.explore-nav .explore-logo.logo-mark{width:92px;height:30px}}
-@media(max-width:650px){.explore-nav .explore-home{display:grid;place-items:center;width:29px;height:29px;border:1px solid #d7a85391;border-radius:50%;font-size:0;letter-spacing:0}.explore-nav .explore-home:after{content:"↗";font:16px/1 Georgia,serif;color:#efd28e}}

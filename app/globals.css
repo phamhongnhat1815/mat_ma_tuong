@@ -107,8 +107,6 @@ h1,h2,h3{font-family:"LNTH Daybreaker",Georgia,serif!important;font-weight:400!i
 .nav .logo-mark{height:34px!important;width:clamp(92px,10vw,132px)!important}
 @media(max-width:720px){.nav{padding:11px 14px!important}.nav .logo-mark{width:76px!important;height:28px!important}.nav .nav-links{display:flex!important;gap:10px!important;font-size:8px!important;letter-spacing:.07em!important}.nav .nav-links a{white-space:nowrap}}
 
-/* On phones the cross-page cue reads as a deliberate small button, not oversized text glyph. */
-@media(max-width:650px){.about-actions .text-link:not(.secret-link) span{display:inline-grid;place-items:center;width:20px;height:20px;margin-left:7px;border:1px solid currentColor;border-radius:50%;font:12px/1 Georgia,serif;vertical-align:middle}}
 
 /* Give the revealed reading card the full visual weight of its left-hand panel. */
 .reading-focus .focus-card{width:min(100%,220px)!important}
