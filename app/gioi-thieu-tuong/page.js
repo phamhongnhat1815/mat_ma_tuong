@@ -76,9 +76,8 @@ export default function GioiThieuTuong() {
     return () => { window.removeEventListener("pointerdown", playMusic); window.removeEventListener("keydown", playMusic); };
   }, []);
 
-  return <main className="explore-page">
+  return <><header className="explore-nav"><a className="explore-logo logo-mark" href="/" aria-label="Mật Mã Tuồng"><img src="/images/logo-cutout.webp" alt="Mật Mã Tuồng" /></a><nav><a href="#lich-su">Lịch sử</a><a href="#nghe-thuat">Nghệ thuật</a><a href="#nhan-vat">Nhân vật</a><a href="#tich-truyen">Tích truyện</a><a href="#gia-tri">Giá trị</a></nav><a className="explore-home" href="/">Mật mã Tuồng ↗</a></header><main className="explore-page">
     <audio ref={musicRef} src="/audio.mp3" autoPlay loop preload="auto" aria-hidden="true" />
-    <header className="explore-nav"><a className="explore-logo logo-mark" href="/" aria-label="Mật Mã Tuồng"><img src="/images/logo-cutout.webp" alt="Mật Mã Tuồng" /></a><nav><a href="#lich-su">Lịch sử</a><a href="#nghe-thuat">Nghệ thuật</a><a href="#nhan-vat">Nhân vật</a><a href="#tich-truyen">Tích truyện</a><a href="#gia-tri">Giá trị</a></nav><a className="explore-home" href="/">Mật mã Tuồng ↗</a></header>
 
     <section className="explore-hero" id="tong-quan">
       <div className="explore-hero-copy explore-reveal is-in"><span className="explore-kicker">Overview · Di sản sân khấu Việt</span><h1>Tuồng</h1><h2>Linh hồn của sân khấu Việt</h2><p>Một thế giới nơi màu sắc biết nói, âm thanh dẫn lối và mỗi dáng bộ đều lưu giữ một phần ký ức dân tộc.</p><a href="#lich-su">Bắt đầu khám phá <span>↓</span></a></div>
@@ -122,5 +121,5 @@ export default function GioiThieuTuong() {
       <blockquote className="explore-reveal">“Giữ gìn Tuồng là giữ gìn một phần hồn cốt văn hoá Việt.”</blockquote>
     </section>
     <Footer />
-  </main>;
+  </main></>;
 }
