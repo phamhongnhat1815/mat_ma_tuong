@@ -20,3 +20,7 @@
 @media(max-width:1050px){.character-atlas{grid-template-columns:1fr}.character-intro{position:relative;top:auto;max-width:650px}.character-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:680px){.character-atlas{padding:90px 6vw}.character-grid{grid-template-columns:1fr;gap:50px}.character-card,.character-card:nth-child(n){grid-template-columns:minmax(120px,.75fr) minmax(145px,1fr);gap:20px}.character-card .explore-media{height:340px}.character-card h3{font-size:40px}.character-card p{font-size:11px;line-height:1.65}.character-intro h2{font-size:52px}}
 .character-4 img{object-position:22% center}
+
+/* Keep each character name and its trait on the same baseline within a row. */
+.character-card > div{align-self:start;padding-top:24px}
+.character-card .character-trait{display:block;margin:0;color:#f0cd83;font:400 clamp(19px,1.6vw,23px)/1.3 "LNTH Daybreaker",Georgia,serif;letter-spacing:.025em}

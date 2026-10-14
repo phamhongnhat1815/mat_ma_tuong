@@ -13,12 +13,12 @@ const arts = [
 ];
 
 const characters = [
-  { name: "Kép", src: "kep.jpg", text: "Là vai nam trẻ hoặc trung niên, thường đảm nhận hình tượng nam chính như anh hùng, trung thần, thư sinh hoặc võ tướng trẻ. Kép thường mang tính cách chính trực, dũng cảm, nghĩa khí, có phong thái đường hoàng và mạnh mẽ, với cách hóa trang cân đối và động tác dứt khoát." },
-  { name: "Đào", src: "dao.jpg", text: "Là vai nữ trẻ trong Tuồng, thường đại diện cho thiếu nữ, tiểu thư, công chúa hoặc người vợ trẻ. Nhân vật Đào thường mang vẻ đẹp duyên dáng, mềm mại và giàu cảm xúc, được thể hiện qua lối hóa trang thanh tú, giọng hát trong sáng cùng những động tác nhẹ nhàng, uyển chuyển." },
-  { name: "Tướng", src: "tuong.jpg", text: "Là loại vai đại diện cho các võ tướng và nhân vật cầm quân, nổi bật với vẻ mạnh mẽ, oai phong và khí chất chiến đấu. Vai Tướng thường có lối hóa trang đậm, cách điệu, trang phục và mão giáp cầu kỳ, kết hợp với những động tác võ thuật mạnh mẽ, dứt khoát; tùy nhân vật mà có thể là tướng trung thành, anh dũng hoặc tướng phản diện, hung ác." },
-  { name: "Lão", src: "lao.jpg", text: "Là vai nam cao tuổi, thường xuất hiện dưới hình tượng vua già, quan lớn, người cha, quân sư hoặc trung thần nhiều tuổi. Nhân vật Lão thể hiện sự từng trải, điềm đạm và uy nghiêm, thường có râu tóc bạc, giọng nói trầm, dáng đi và cử chỉ chậm rãi, chắc chắn." },
-  { name: "Nịnh", src: "ninh.jpg", text: "Là loại vai thường đại diện cho gian thần hoặc nhân vật phản diện, mang tính cách xu nịnh, tham quyền, phản trắc và xảo quyệt. Vai Nịnh thường được hóa trang với những đường nét sắc và đậm, kết hợp ánh mắt, nét mặt và cử chỉ để làm nổi bật vẻ gian tà, mưu mô của nhân vật." },
-  { name: "Mụ", src: "mu.jpg", text: "Là vai nữ lớn tuổi, thường đảm nhận hình tượng người mẹ, người bà hoặc phu nhân. Nhân vật Mụ có thể hiền từ, nghiêm khắc hoặc mang tính cách phản diện tùy theo câu chuyện, nhưng thường được thể hiện bằng lối hóa trang già dặn, giọng nói và những động tác chậm rãi để làm nổi bật tuổi tác và sự từng trải." }
+  { name: "Kép", trait: "Trượng nghĩa", src: "kep.jpg", text: "Là vai nam trẻ hoặc trung niên, thường đảm nhận hình tượng nam chính như anh hùng, trung thần, thư sinh hoặc võ tướng trẻ. Kép thường mang tính cách chính trực, dũng cảm, nghĩa khí, có phong thái đường hoàng và mạnh mẽ, với cách hóa trang cân đối và động tác dứt khoát." },
+  { name: "Đào", trait: "Đoan trang", src: "dao.jpg", text: "Là vai nữ trẻ trong Tuồng, thường đại diện cho thiếu nữ, tiểu thư, công chúa hoặc người vợ trẻ. Nhân vật Đào thường mang vẻ đẹp duyên dáng, mềm mại và giàu cảm xúc, được thể hiện qua lối hóa trang thanh tú, giọng hát trong sáng cùng những động tác nhẹ nhàng, uyển chuyển." },
+  { name: "Tướng", trait: "Dũng mãnh", src: "tuong.jpg", text: "Là loại vai đại diện cho các võ tướng và nhân vật cầm quân, nổi bật với vẻ mạnh mẽ, oai phong và khí chất chiến đấu. Vai Tướng thường có lối hóa trang đậm, cách điệu, trang phục và mão giáp cầu kỳ, kết hợp với những động tác võ thuật mạnh mẽ, dứt khoát; tùy nhân vật mà có thể là tướng trung thành, anh dũng hoặc tướng phản diện, hung ác." },
+  { name: "Lão", trait: "Hiền từ", src: "lao.jpg", text: "Là vai nam cao tuổi, thường xuất hiện dưới hình tượng vua già, quan lớn, người cha, quân sư hoặc trung thần nhiều tuổi. Nhân vật Lão thể hiện sự từng trải, điềm đạm và uy nghiêm, thường có râu tóc bạc, giọng nói trầm, dáng đi và cử chỉ chậm rãi, chắc chắn." },
+  { name: "Nịnh", trait: "Xảo quyệt", src: "ninh.jpg", text: "Là loại vai thường đại diện cho gian thần hoặc nhân vật phản diện, mang tính cách xu nịnh, tham quyền, phản trắc và xảo quyệt. Vai Nịnh thường được hóa trang với những đường nét sắc và đậm, kết hợp ánh mắt, nét mặt và cử chỉ để làm nổi bật vẻ gian tà, mưu mô của nhân vật." },
+  { name: "Mụ", trait: "Gia biến", src: "mu.jpg", text: "Là vai nữ lớn tuổi, thường đảm nhận hình tượng người mẹ, người bà hoặc phu nhân. Nhân vật Mụ có thể hiền từ, nghiêm khắc hoặc mang tính cách phản diện tùy theo câu chuyện, nhưng thường được thể hiện bằng lối hóa trang già dặn, giọng nói và những động tác chậm rãi để làm nổi bật tuổi tác và sự từng trải." }
 ];
 
 function Media({ src, alt, className = "", video = false }) {
@@ -106,7 +106,7 @@ export default function GioiThieuTuong() {
 
     <section className="people-section character-atlas roman-section" id="nhan-vat" data-roman="III">
       <header className="character-intro explore-reveal"><span className="explore-kicker">03 · Characters</span><h2>Đặc trưng<br />nhân vật <small>trong Tuồng</small></h2><p>Mỗi nhân vật mang một sắc thái và tính cách riêng, tạo nên bức tranh đa dạng của sân khấu truyền thống.</p></header>
-      <div className="character-grid">{characters.map((item, index) => <article className={`character-card character-${index + 1} explore-reveal`} key={item.name}><Media src={item.src} alt={`Vai ${item.name} trong nghệ thuật Tuồng`} /><div><span>0{index + 1}</span><h3>{item.name}</h3><i aria-hidden="true" /><p>{item.text}</p></div></article>)}</div>
+      <div className="character-grid">{characters.map((item, index) => <article className={`character-card character-${index + 1} explore-reveal`} key={item.name}><Media src={item.src} alt={`Vai ${item.name} trong nghệ thuật Tuồng`} /><div><span>0{index + 1}</span><h3>{item.name}</h3><strong className="character-trait">{item.trait}</strong><i aria-hidden="true" /><p>{item.text}</p></div></article>)}</div>
     </section>
 
     <section className="stories-v2 roman-section" id="tich-truyen" data-roman="IV">
