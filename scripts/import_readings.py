@@ -11,6 +11,8 @@ parser.add_argument('--source-dir', type=Path, default=Path.home() / 'Downloads'
 args = parser.parse_args()
 FILES = [('Tình cảm', 'DIM - Project.docx'), ('Gia đình', 'DIM - Project (1).docx'), ('Sự nghiệp', 'DIM - Project (2).docx'), ('Học tập', 'DIM - Project (3).docx')]
 IMAGES = [1, 2, 4, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 21]
+# Display names follow the labels on the card artwork.
+CARD_TITLES = {1: 'Kép Văn', 2: 'Kép Võ', 3: 'Kép Con', 4: 'Kép Rằn', 5: 'Đào Chiến', 6: 'Đào Bi', 7: 'Đào Lẳng', 8: 'Đào Điên', 9: 'Tướng Gộc', 10: 'Tướng Lác', 11: 'Tướng Phiên', 12: 'Lão Văn', 13: 'Lão Võ', 14: 'Lão Tiều', 15: 'Nịnh Gộc', 16: 'Nịnh Mụt', 17: 'Nịnh Chẩu', 18: 'Mụ Quý Tộc', 19: 'Mụ Ác', 20: 'Mụ Tiều', 21: 'Kép Xéo Đỏ', 22: 'Kép Xéo Xanh'}
 
 def inherited(obj, prop, kind):
     value = getattr(getattr(obj, kind), prop)
@@ -70,7 +72,7 @@ for topic, filename in FILES:
         paras = doc.paragraphs[start + 1:end]
         marker = next(i for i, p in enumerate(paras) if p.text == 'THÔNG ĐIỆP DÀNH CHO BẠN')
         detail = next(i for i, p in enumerate(paras) if re.match(r'^I\.', p.text))
-        title = re.sub(r'^LÁ(?: BÀI| SỐ)? \d+\s*[:–-]\s*', '', doc.paragraphs[start].text, flags=re.I)
+        title = CARD_TITLES[IMAGES[index]]
         image = next((ROOT / 'public/cards').glob(str(IMAGES[index]) + '. *.webp'))
         sections = [i for i, p in enumerate(paras) if re.match(r'^(I|II|III)\.', p.text)]
         details = {f'detail{i+1}': [paragraph(p) for p in paras[a:(sections[i+1] if i+1 < len(sections) else len(paras))]] for i, a in enumerate(sections)}

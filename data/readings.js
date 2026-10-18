@@ -4,7 +4,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-01",
       "image": "/cards/1. kep van.webp",
-      "title": "KÉP VĂN",
+      "title": "Kép Văn",
       "message": "Tình cảm của bạn không cần phải quá ồn ào để trở nên sâu sắc. Đừng vội chọn điều khiến trái tim rung động nhất. Hãy chọn điều khiến bạn cảm thấy được tôn trọng, được lắng nghe và có thể cùng nhau đi lâu dài.",
       "messageParagraphs": [
         {
@@ -394,7 +394,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-02",
       "image": "/cards/2. kep vo.webp",
-      "title": "KÉP VÕ",
+      "title": "Kép Võ",
       "message": "Có những lúc điều bạn cần không phải là suy nghĩ thêm, mà là đứng lên và hành động.\nHãy bảo vệ điều bạn tin là đúng, bảo vệ những người quan trọng với bạn và dám đưa ra lựa chọn khi thời điểm đến. Nhưng sức mạnh thật sự không chỉ nằm ở việc mạnh mẽ tiến về phía trước, mà còn ở khả năng biết mình đang chiến đấu vì điều gì.",
       "messageParagraphs": [
         {
@@ -781,7 +781,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-03",
       "image": "/cards/4. kep ran.webp",
-      "title": "KÉP RẰN",
+      "title": "Kép Rằn",
       "message": "Tình cảm đôi khi không đến từ sự bình yên, mà đến từ những cảm xúc đủ mạnh để khiến bạn không thể làm ngơ.\nNhưng một cảm xúc mãnh liệt chỉ thực sự có ý nghĩa khi bạn biết mình muốn gì và sẵn sàng chịu trách nhiệm với lựa chọn của mình. Đừng sợ cảm xúc mạnh, nhưng cũng đừng để cảm xúc quyết định thay bạn.",
       "messageParagraphs": [
         {
@@ -1194,7 +1194,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-04",
       "image": "/cards/3. kep con.webp",
-      "title": "KÉP CON",
+      "title": "Kép Con",
       "message": "Không phải tình cảm nào cũng cần được xác định ngay từ đầu. Có những mối quan hệ cần thời gian để hai người cùng khám phá, trưởng thành và hiểu mình thực sự muốn gì.\nHãy cho bản thân quyền bắt đầu một cách tự nhiên. Đừng vội đòi hỏi một câu trả lời cho tương lai khi điều quan trọng lúc này là thành thật với cảm xúc và trân trọng những gì đang được hình thành.",
       "messageParagraphs": [
         {
@@ -1628,7 +1628,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-05",
       "image": "/cards/5. dao chien.webp",
-      "title": "ĐÀO CHIẾN/ ĐÀO VÕ",
+      "title": "Đào Chiến",
       "message": "Tình cảm của bạn không cần phải chờ đợi hay đứng phía sau một ai đó. Khi bạn biết mình muốn gì, bạn có quyền chủ động bước tới và lựa chọn điều xứng đáng với mình.\nNhưng chủ động không có nghĩa là phải kiểm soát mọi thứ. Một mối quan hệ bền vững cần hai người cùng tiến về phía nhau, không phải một người luôn phải chiến đấu thay cho cả hai.",
       "messageParagraphs": [
         {
@@ -2037,7 +2037,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-06",
       "image": "/cards/6. Dao bi.webp",
-      "title": "ĐÀO BI/ ĐÀO THƯƠNG",
+      "title": "Đào Bi",
       "message": "Có những tình cảm không cần quá nhiều lời nhưng vẫn để lại dấu ấn rất sâu. Điều bạn cần lúc này có thể không phải là một câu trả lời ngay lập tức, mà là thời gian để hiểu mình thực sự cảm thấy gì và mình muốn gì trong một mối quan hệ.\nĐừng xem sự nhạy cảm là điểm yếu. Nhưng cũng đừng để cảm xúc khiến bạn giữ mãi một điều đã không còn phù hợp.",
       "messageParagraphs": [
         {
@@ -2401,7 +2401,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-07",
       "image": "/cards/7. dao lang.webp",
-      "title": "ĐÀO LẲNG",
+      "title": "Đào Lẳng",
       "message": "Bạn có sức hút riêng, và đôi khi chính sự tự tin, duyên dáng hay cách bạn thể hiện cảm xúc khiến người khác chú ý đến mình. Nhưng một mối quan hệ bền vững không chỉ được tạo nên từ sức hút ban đầu, điều quan trọng hơn là người ở bên bạn có thực sự nhìn thấy và trân trọng con người phía sau sự cuốn hút ấy hay không.",
       "messageParagraphs": [
         {
@@ -2704,7 +2704,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-08",
       "image": "/cards/8. dao dien.webp",
-      "title": "ĐÀO ĐIÊN",
+      "title": "Đào Điên",
       "message": "Có những cảm xúc đến quá mạnh khiến bạn khó giữ được sự bình tĩnh như thường ngày. Đừng vội xem mọi rung động, tổn thương hay bất an là dấu hiệu cho thấy một điều gì đó đã kết thúc; đôi khi điều bạn cần trước tiên là một khoảng lặng để hiểu mình thật sự đang cảm thấy gì.",
       "messageParagraphs": [
         {
@@ -3071,7 +3071,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-09",
       "image": "/cards/9. tuong goc.webp",
-      "title": "TƯỚNG GỘC/ TƯỚNG LỚN",
+      "title": "Tướng Gộc",
       "message": "Bạn có thể đang bị thu hút bởi một người mạnh mẽ, quyết đoán hoặc có khí chất khiến bạn cảm thấy được che chở và tin tưởng. Nhưng trong tình cảm, ranh giới giữa sự vững vàng và sự kiểm soát rất quan trọng: một mối quan hệ tốt không cần một người phải nắm quyền trên người còn lại.",
       "messageParagraphs": [
         {
@@ -3471,7 +3471,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-10",
       "image": "/cards/10. tuong lac.webp",
-      "title": "TƯỚNG NHỎ/ TƯỚNG LÁC",
+      "title": "Tướng Lác",
       "message": "Không phải lúc nào tình cảm cũng cần một câu trả lời ngay lập tức. Có thể bạn đang bị cuốn vào những cảm xúc, tín hiệu hoặc tác động từ người khác, nhưng trước khi hành động, hãy cho mình đủ thời gian để biết điều gì thực sự là mong muốn của bạn.",
       "messageParagraphs": [
         {
@@ -3821,7 +3821,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-11",
       "image": "/cards/11. tuong phien.webp",
-      "title": "TƯỚNG PHIÊN",
+      "title": "Tướng Phiên",
       "message": "Không phải mọi khác biệt đều là dấu hiệu của một mối quan hệ không phù hợp. Có những kết nối chỉ thật sự có ý nghĩa khi bạn dám bước ra khỏi điều quen thuộc và nhìn người đối diện bằng sự tỉnh táo.",
       "messageParagraphs": [
         {
@@ -4133,7 +4133,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-12",
       "image": "/cards/12. lao van.webp",
-      "title": "LÃO VĂN",
+      "title": "Lão Văn",
       "message": "Có những tình cảm không cần quá nhiều lời vẫn có thể trở nên sâu sắc theo thời gian. Hãy để sự thấu hiểu, bình tĩnh và chân thành giúp bạn nhìn rõ một mối quan hệ trước khi đưa ra lựa chọn.",
       "messageParagraphs": [
         {
@@ -4451,7 +4451,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-13",
       "image": "/cards/13. lao vo.webp",
-      "title": "LÃO VÕ (giang)",
+      "title": "Lão Võ",
       "message": "Tình cảm không chỉ được giữ bằng lời nói, mà còn bằng cách bạn hiện diện và hành động khi người mình quan tâm cần đến. Hãy bảo vệ điều quan trọng với mình, nhưng đừng để sự bảo vệ trở thành cách kiểm soát người khác.",
       "messageParagraphs": [
         {
@@ -4787,7 +4787,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-14",
       "image": "/cards/14. Lao tieu.webp",
-      "title": "LÃO TIỀU/ LÃO CHÀI",
+      "title": "Lão Tiều",
       "message": "Tình cảm đôi khi không cần những điều quá lớn lao để chứng minh giá trị. Sự chân thành, bình dị và cách hai người đối xử với nhau trong những điều nhỏ nhất mới là thứ giúp một mối quan hệ có thể đi lâu dài.",
       "messageParagraphs": [
         {
@@ -5097,7 +5097,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-15",
       "image": "/cards/15. ninh goc.webp",
-      "title": "NỊNH GỘC (done)",
+      "title": "Nịnh Gộc",
       "message": "Không phải mọi lời nói ngọt ngào đều xuất phát từ sự chân thành. Có những lúc, điều bạn cần nhìn vào không phải là người khác nói gì với mình, mà là họ thực sự muốn gì và hành động như thế nào. Khi lợi ích và cảm xúc đan xen, sự tỉnh táo sẽ giúp bạn không trở thành người bị dẫn dắt.",
       "messageParagraphs": [
         {
@@ -5387,7 +5387,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-16",
       "image": "/cards/16. ninh mut.webp",
-      "title": "NỊNH MỤT",
+      "title": "Nịnh Mụt",
       "message": "Không phải ai có vẻ yếu thế cũng hoàn toàn vô hại, và không phải người có ảnh hưởng đến bạn luôn là người đứng ở vị trí cao hơn. Đôi khi, một mối quan hệ được dẫn dắt bởi những lời nói khéo léo, sự dựa dẫm hoặc khả năng tìm đúng người để nhờ cậy. Điều quan trọng là bạn nhận ra mình đang lựa chọn, hay đang bị cuốn theo ảnh hưởng của người khác.",
       "messageParagraphs": [
         {
@@ -5719,7 +5719,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-17",
       "image": "/cards/17. ninh chau.webp",
-      "title": "NỊNH CHẨU",
+      "title": "Nịnh Chẩu",
       "message": "Không phải lúc nào một quyết định nhanh cũng là một quyết định đúng. Đôi khi, điều khiến bạn thay đổi không phải vì bạn thật sự muốn, mà vì bạn bị cuốn theo hoàn cảnh, lời nói hoặc lợi ích trước mắt. Hãy chậm lại đủ lâu để biết đâu là điều mình thực sự lựa chọn.",
       "messageParagraphs": [
         {
@@ -6007,7 +6007,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-18",
       "image": "/cards/18. mu quy toc.webp",
-      "title": "MỤ QUÝ TỘC/ MỤ LÀNH",
+      "title": "Mụ Quý Tộc",
       "message": "Có những người không cần nói quá nhiều nhưng sự hiện diện của họ vẫn khiến người khác cảm thấy an tâm. Sự chăm sóc thật sự không nằm ở việc làm thay tất cả, mà ở việc biết lúc nào nên bảo vệ, lúc nào nên lắng nghe và lúc nào nên để người khác tự bước đi.",
       "messageParagraphs": [
         {
@@ -6325,7 +6325,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-19",
       "image": "/cards/19. mu ac.webp",
-      "title": "MỤ ÁC",
+      "title": "Mụ Ác",
       "message": "Có những điều bạn không cần phải tiếp tục chịu đựng chỉ vì đó là người thân, người quen hay người có ảnh hưởng đến mình. Biết bảo vệ ranh giới của bản thân cũng là một cách trưởng thành. Đôi khi, điều cần thiết không phải là cố làm mọi người hài lòng, mà là đủ rõ ràng để nói điều mình không chấp nhận.",
       "messageParagraphs": [
         {
@@ -6650,7 +6650,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-20",
       "image": "/cards/20. mu tieu.webp",
-      "title": "MỤ TIỀU/ MỤ CHÀI",
+      "title": "Mụ Tiều",
       "message": "Không phải mọi giá trị đều đến từ những điều lớn lao. Có những người sống một cuộc đời rất bình dị nhưng lại biết cách giữ lấy gia đình, công việc và những điều quan trọng bằng sự bền bỉ của mình. Đôi khi, điều bạn cần không phải là đi thật nhanh, mà là đủ vững vàng để đi tiếp.",
       "messageParagraphs": [
         {
@@ -7166,7 +7166,7 @@ export const readingsByTopic = {
     {
       "id": "tình-cảm-22",
       "image": "/cards/21. kep xep do.webp",
-      "title": "Kép Xéo Đỏ ",
+      "title": "Kép Xéo Đỏ",
       "message": "Có thể bạn đang đứng trước một mối quan hệ chưa thật sự rõ ràng và còn nhiều điều chưa thể chắc chắn. Hãy quan sát thêm cách đối phương thể hiện tình cảm và nhìn vào những gì thực sự đang diễn ra trước khi đưa ra lựa chọn.",
       "messageParagraphs": [
         {
@@ -7436,7 +7436,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-01",
       "image": "/cards/1. kep van.webp",
-      "title": "KÉP VĂN",
+      "title": "Kép Văn",
       "message": "Trong gia đình, có những trách nhiệm không cần được nói ra nhưng vẫn luôn có người âm thầm đứng ra gánh vác. Tuy nhiên, trách nhiệm không có nghĩa là bạn phải tự mình giải quyết mọi chuyện. Đôi khi điều gia đình cần ở bạn không chỉ là sự đáng tin, mà còn là khả năng nói rõ mình đang cần gì.",
       "messageParagraphs": [
         {
@@ -7805,7 +7805,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-02",
       "image": "/cards/2. kep vo.webp",
-      "title": "KÉP VÕ",
+      "title": "Kép Võ",
       "message": "Có những lúc gia đình cần một người dám đứng ra khi người khác đang gặp khó khăn. Nhưng bảo vệ người thân không có nghĩa là quyết định thay họ mọi chuyện. Hãy biết khi nào cần hành động, và khi nào sự tôn trọng dành cho lựa chọn của người thân mới là cách bảo vệ phù hợp nhất.\n",
       "messageParagraphs": [
         {
@@ -8162,7 +8162,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-03",
       "image": "/cards/4. kep ran.webp",
-      "title": "KÉP RẰN",
+      "title": "Kép Rằn",
       "message": "Có những vấn đề trong gia đình không thể giải quyết bằng cách tiếp tục im lặng. Bạn có quyền bảo vệ những người mình yêu thương và nói rõ điều khiến mình không đồng ý. Nhưng trước khi phản ứng, hãy chắc rằng bạn đang bảo vệ gia đình, chứ không phải chỉ đang bảo vệ cảm xúc của chính mình.",
       "messageParagraphs": [
         {
@@ -8522,7 +8522,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-04",
       "image": "/cards/3. kep con.webp",
-      "title": "KÉP CON",
+      "title": "Kép Con",
       "message": "Gia đình không chỉ là nơi mọi người chăm sóc nhau, mà còn là nơi mỗi người lớn lên và tìm được vị trí của mình. Có những thành viên cần được bảo vệ, nhưng cũng có những lúc họ cần được tin tưởng để tự trải nghiệm và trưởng thành. Đừng để tình yêu thương vô tình trở thành lý do khiến một người không có cơ hội tự bước đi.",
       "messageParagraphs": [
         {
@@ -8905,7 +8905,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-05",
       "image": "/cards/5. dao chien.webp",
-      "title": "ĐÀO CHIẾN/ ĐÀO VÕ",
+      "title": "Đào Chiến",
       "message": "Có những lúc yêu thương gia đình không chỉ nằm ở việc quan tâm, mà ở việc dám đứng lên khi người thân thực sự cần mình. Bạn có quyền chủ động bảo vệ điều mình coi trọng. Nhưng hãy nhớ rằng cùng một hành động có thể là sự che chở hoặc trở thành áp đặt, tùy vào cách bạn thực hiện nó.\n",
       "messageParagraphs": [
         {
@@ -9270,7 +9270,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-06",
       "image": "/cards/6. Dao bi.webp",
-      "title": "ĐÀO BI/ ĐÀO THƯƠNG",
+      "title": "Đào Bi",
       "message": "Gia đình có những tình cảm rất sâu sắc, nhưng yêu thương không có nghĩa là bạn phải tự mình chịu đựng mọi thứ. Nếu bạn đang chăm sóc, lo lắng hoặc hy sinh cho người thân, hãy nhớ rằng cảm xúc, nhu cầu và giới hạn của chính bạn cũng rất quan trọng. \n",
       "messageParagraphs": [
         {
@@ -9591,7 +9591,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-07",
       "image": "/cards/7. dao lang.webp",
-      "title": "ĐÀO LẲNG",
+      "title": "Đào Lẳng",
       "message": "Trong gia đình, bạn cũng có thể tạo ảnh hưởng mà không cần phải là người có quyền quyết định. Nhưng hãy để ý cách mình sử dụng ảnh hưởng đó. Một lời nói đúng lúc có thể kết nối mọi người, trong khi việc cố khiến người khác làm theo ý mình có thể tạo ra khoảng cách.",
       "messageParagraphs": [
         {
@@ -9891,7 +9891,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-08",
       "image": "/cards/8. dao dien.webp",
-      "title": "ĐÀO ĐIÊN",
+      "title": "Đào Điên",
       "message": "Không phải chuyện gì xảy ra trong gia đình đều được nói ra thành lời. Có người chọn im lặng, thay đổi cách cư xử hoặc vẫn tỏ ra bình thường dù bên trong đang chịu rất nhiều áp lực. Vì vậy, trước khi nghĩ rằng một người đang “khó hiểu”, hãy thử tìm hiểu xem điều gì đang khiến họ trở nên như vậy. \n",
       "messageParagraphs": [
         {
@@ -10246,7 +10246,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-09",
       "image": "/cards/9. tuong goc.webp",
-      "title": "TƯỚNG GỘC/ TƯỚNG LỚN",
+      "title": "Tướng Gộc",
       "message": "Trong gia đình, người có tiếng nói lớn thường có khả năng tạo ra sự ổn định, nhưng cũng có thể khiến những người khác khó đưa ra lựa chọn riêng. Nếu bạn đang ở vị trí quyết định, hãy nhớ rằng trách nhiệm không chỉ là đưa ra quyết định mà còn là lắng nghe những người chịu ảnh hưởng từ quyết định đó.\n",
       "messageParagraphs": [
         {
@@ -10650,7 +10650,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-10",
       "image": "/cards/10. tuong lac.webp",
-      "title": "TƯỚNG NHỎ/ TƯỚNG LÁC",
+      "title": "Tướng Lác",
       "message": "Thay đổi theo hoàn cảnh không phải lúc nào cũng là điều xấu, nhưng trong gia đình, việc liên tục để người khác quyết định thay có thể khiến bạn dần đánh mất tiếng nói của mình. Hãy lắng nghe người thân, nhưng cũng cần biết đâu là điều bạn thực sự muốn và chịu trách nhiệm với lựa chọn của mình.\n",
       "messageParagraphs": [
         {
@@ -10997,7 +10997,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-11",
       "image": "/cards/11. tuong phien.webp",
-      "title": "TƯỚNG PHIÊN",
+      "title": "Tướng Phiên",
       "message": "Trong gia đình, không phải bất đồng nào cũng có nghĩa là mọi người không còn quan tâm đến nhau. Có những khác biệt xuất phát từ tuổi tác, cách sống hoặc cách nhìn về điều đúng - sai. Điều quan trọng là bạn đang cố hiểu sự khác biệt đó hay chỉ đang cố chứng minh rằng mình đúng.",
       "messageParagraphs": [
         {
@@ -11279,7 +11279,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-12",
       "image": "/cards/12. lao van.webp",
-      "title": "LÃO VĂN",
+      "title": "Lão Văn",
       "message": "Trong gia đình, có những lúc người khác không cần bạn giải quyết thay họ mà chỉ cần một người đủ bình tĩnh để lắng nghe. Kinh nghiệm của người đi trước có giá trị, nhưng lời khuyên chỉ thật sự có ích khi người nghe vẫn được tự quyết định cuộc sống của mình. \n",
       "messageParagraphs": [
         {
@@ -11589,7 +11589,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-13",
       "image": "/cards/13. lao vo.webp",
-      "title": "LÃO VÕ",
+      "title": "Lão Võ",
       "message": "Có những người trong gia đình không nói nhiều nhưng thường là người đầu tiên xuất hiện khi có chuyện. Tuy nhiên, trở thành chỗ dựa không có nghĩa là phải gánh tất cả mọi việc một mình. Một gia đình vững không chỉ cần một người mạnh, mà cần nhiều người cùng biết chia sẻ trách nhiệm.",
       "messageParagraphs": [
         {
@@ -11909,7 +11909,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-14",
       "image": "/cards/14. Lao tieu.webp",
-      "title": "LÃO TIỀU/ LÃO CHÀI",
+      "title": "Lão Tiều",
       "message": "Gia đình đôi khi không cần những điều gì quá lớn lao. Một bữa cơm chung, một cuộc trò chuyện hay cùng nhau làm một việc nhỏ cũng đủ giúp các thành viên gần gũi hơn. Đừng chỉ đánh giá giá trị của gia đình qua những thành tựu lớn, bởi những điều bình dị mỗi ngày cũng rất đáng trân trọng. ",
       "messageParagraphs": [
         {
@@ -12205,7 +12205,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-15",
       "image": "/cards/15. ninh goc.webp",
-      "title": "NỊNH GỘC",
+      "title": "Nịnh Gộc",
       "message": "Trong gia đình, sự kiểm soát không phải lúc nào cũng thể hiện bằng những mệnh lệnh rõ ràng. Đôi khi, nó nằm ở việc một người thường xuyên quyết định thay người khác, can thiệp vào lựa chọn của họ hoặc khiến họ cảm thấy có lỗi khi không làm theo ý mình. Quan tâm đến người thân không có nghĩa là phải nắm quyền quyết định cuộc sống của họ.",
       "messageParagraphs": [
         {
@@ -12476,7 +12476,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-16",
       "image": "/cards/16. ninh mut.webp",
-      "title": "NỊNH MỤT",
+      "title": "Nịnh Mụt",
       "message": "Không phải mọi ảnh hưởng xấu trong gia đình đều đến từ một cuộc xung đột rõ ràng. Đôi khi một người liên tục gây áp lực, kéo người khác vào những quyết định không có lợi hoặc khiến các thành viên mất niềm tin vào nhau. Hãy chú ý đến cách một mối quan hệ đang ảnh hưởng đến gia đình, thay vì chỉ nhìn vào từng sự việc riêng lẻ.",
       "messageParagraphs": [
         {
@@ -12763,7 +12763,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-17",
       "image": "/cards/17. ninh chau.webp",
-      "title": "NỊNH CHẨU",
+      "title": "Nịnh Chẩu",
       "message": "Có những lúc bạn thay đổi quyết định không phải vì bạn thực sự đổi ý, mà vì người trước mặt có ảnh hưởng quá lớn đến bạn. Trong gia đình, điều này càng dễ xảy ra khi bạn phụ thuộc vào người thân hoặc rất sợ làm họ thất vọng. Lắng nghe ý kiến của người khác là điều cần thiết, nhưng điều đó không có nghĩa là bạn phải bỏ qua mong muốn và suy nghĩ của chính mình. ",
       "messageParagraphs": [
         {
@@ -13005,7 +13005,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-18",
       "image": "/cards/18. mu quy toc.webp",
-      "title": "MỤ QUÝ TỘC/ MỤ LÀNH",
+      "title": "Mụ Quý Tộc",
       "message": "Trong gia đình thường có một người luôn để ý xem mọi người đang cần gì, ai đang gặp khó khăn và ai cần được chăm sóc. Sự quan tâm ấy rất quan trọng, nhưng che chở không có nghĩa là phải làm thay tất cả. Đôi khi, cách yêu thương tốt nhất là ở bên cạnh, giúp đỡ khi cần và để người thân tự giải quyết phần việc của mình. ",
       "messageParagraphs": [
         {
@@ -13255,7 +13255,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-19",
       "image": "/cards/19. mu ac.webp",
-      "title": "MỤ ÁC",
+      "title": "Mụ Ác",
       "message": "Có những mâu thuẫn trong gia đình không bắt đầu từ việc mọi người không thương nhau, mà từ những kỳ vọng quá khác nhau. Khi một thế hệ muốn người khác sống theo những điều mình tin là đúng, sự quan tâm rất dễ trở thành áp đặt. Điều quan trọng là biết đâu là lời khuyên và đâu là giới hạn của người khác.",
       "messageParagraphs": [
         {
@@ -13525,7 +13525,7 @@ export const readingsByTopic = {
     {
       "id": "gia-đình-20",
       "image": "/cards/20. mu tieu.webp",
-      "title": "MỤ TIỀU/ MỤ CHÀI",
+      "title": "Mụ Tiều",
       "message": "Đời sống gia đình không chỉ nằm trong những cuộc trò chuyện lớn hay những khoảnh khắc đặc biệt. Nó còn nằm ở việc mọi người cùng làm việc, cùng lo toan và có mặt khi một thành viên cần giúp đỡ. Đôi khi chính những điều rất bình thường lại cho thấy một gia đình đang gắn bó với nhau như thế nào. ",
       "messageParagraphs": [
         {
@@ -14272,7 +14272,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-01",
       "image": "/cards/1. kep van.webp",
-      "title": "KÉP VĂN",
+      "title": "Kép Văn",
       "message": "Trong công việc, sự đáng tin không chỉ thể hiện ở việc bạn hoàn thành nhiệm vụ, mà còn ở cách bạn chịu trách nhiệm với những gì mình đã nhận. Tuy nhiên, có trách nhiệm không có nghĩa là lúc nào bạn cũng phải nhận thêm việc hay tự mình giải quyết mọi vấn đề. Điều quan trọng là biết đâu là phần việc mình thực sự nên đứng ra gánh vác.",
       "messageParagraphs": [
         {
@@ -14641,7 +14641,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-02",
       "image": "/cards/2. kep vo.webp",
-      "title": "KÉP VÕ",
+      "title": "Kép Võ",
       "message": "Có những thời điểm trong sự nghiệp, biết mình muốn gì vẫn chưa đủ; bạn còn phải dám bước lên và làm điều cần làm. Nếu đang đứng trước một cơ hội hoặc vấn đề mà bạn đã suy nghĩ đủ lâu, hãy xem điều gì đang thực sự giữ bạn lại: thiếu năng lực, thiếu thông tin hay chỉ là sợ phải chịu trách nhiệm cho quyết định của mình.\n",
       "messageParagraphs": [
         {
@@ -14998,7 +14998,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-03",
       "image": "/cards/4. kep ran.webp",
-      "title": "KÉP RẰN",
+      "title": "Kép Rằn",
       "message": "Bạn có thể đang ở giai đoạn mà sự nghiệp không chỉ cần sự ổn định, phải cạnh tranh, bảo vệ vị trí hoặc chứng minh năng lực trong một môi trường có áp lực. Quyết liệt có thể giúp bạn tiến lên, nhưng nếu xem mọi vấn đề đều là một cuộc đấu, chính cách bạn phản ứng có thể khiến mọi việc khó khăn hơn. ",
       "messageParagraphs": [
         {
@@ -15355,7 +15355,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-04",
       "image": "/cards/3. kep con.webp",
-      "title": "KÉP CON",
+      "title": "Kép Con",
       "message": "Bạn không cần phải có một kế hoạch nghề nghiệp thật rõ ràng ngay từ đầu. Nếu còn ít kinh nghiệm hoặc đang thử một hướng đi mới, điều quan trọng lúc này có thể là tìm cơ hội để học hỏi, trải nghiệm và hiểu rõ khả năng của mình hơn. Đừng vội cho rằng mình chưa đủ giỏi chỉ vì chưa có kết quả ngay lập tức. ",
       "messageParagraphs": [
         {
@@ -15738,7 +15738,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-05",
       "image": "/cards/5. dao chien.webp",
-      "title": "ĐÀO CHIẾN/ ĐÀO VÕ",
+      "title": "Đào Chiến",
       "message": "Trong sự nghiệp, có những cơ hội sẽ không tự tìm đến nếu bạn luôn chờ người khác nhận ra khả năng của mình. Dám cạnh tranh không có nghĩa là phải hơn người khác bằng mọi giá; đó là khi bạn biết mình muốn đạt được điều gì và sẵn sàng chủ động nắm lấy cơ hội đó. \n",
       "messageParagraphs": [
         {
@@ -16103,7 +16103,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-06",
       "image": "/cards/6. Dao bi.webp",
-      "title": "ĐÀO BI/ ĐÀO THƯƠNG",
+      "title": "Đào Bi",
       "message": "Một thất bại trong công việc có thể khiến bạn nghi ngờ năng lực của chính mình nhiều hơn mức cần thiết. Đừng vội xem một lần bị từ chối, một dự án không thành công hay một lời đánh giá chưa tốt là bằng chứng rằng bạn không phù hợp với nghề nghiệp mình đang theo đuổi.",
       "messageParagraphs": [
         {
@@ -16416,7 +16416,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-07",
       "image": "/cards/7. dao lang.webp",
-      "title": "ĐÀO LẲNG",
+      "title": "Đào Lẳng",
       "message": "Trong công việc, khả năng tạo thiện cảm và gây ảnh hưởng có thể mở ra nhiều cơ hội, nhưng nó không nên trở thành thứ duy nhất bạn dựa vào để tiến lên. Hãy để cách giao tiếp giúp người khác nhìn thấy năng lực của bạn, thay vì dùng quan hệ hoặc sự chú ý để thay thế cho năng lực.",
       "messageParagraphs": [
         {
@@ -16716,7 +16716,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-08",
       "image": "/cards/8. dao dien.webp",
-      "title": "ĐÀO ĐIÊN",
+      "title": "Đào Điên",
       "message": "Không phải mọi giai đoạn bất ổn trong sự nghiệp đều có nghĩa là bạn đã chọn sai con đường. Đôi khi, điều bạn đang trải qua chỉ cho thấy cách làm việc, môi trường hoặc mục tiêu hiện tại không còn phù hợp như trước. Đây là lúc bạn cần nhìn lại một cách tỉnh táo để biết mình thực sự cần thay đổi điều gì. \n",
       "messageParagraphs": [
         {
@@ -17071,7 +17071,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-09",
       "image": "/cards/9. tuong goc.webp",
-      "title": "TƯỚNG GỘC/ TƯỚNG LỚN",
+      "title": "Tướng Gộc",
       "message": "Sự nghiệp của bạn có thể đang đặt ra câu hỏi về quyền quyết định: bạn muốn trở thành người có tiếng nói lớn hơn, hay chỉ đang muốn được công nhận là người có năng lực? Nếu đang hướng đến một vị trí cao hơn, hãy nhìn cả trách nhiệm và quyền quyết định đi kèm, chứ không chỉ nhìn vào chức danh.\n",
       "messageParagraphs": [
         {
@@ -17465,7 +17465,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-10",
       "image": "/cards/10. tuong lac.webp",
-      "title": "TƯỚNG NHỎ/ TƯỚNG LÁC",
+      "title": "Tướng Lác",
       "message": "Nếu bạn đang liên tục thay đổi quyết định nghề nghiệp theo lời khuyên hoặc áp lực từ người khác, có thể vấn đề không nằm ở việc bạn thiếu lựa chọn mà là bạn chưa xác định rõ lựa chọn nào thực sự thuộc về mình. Lắng nghe cấp trên, đồng nghiệp hay người thân là cần thiết, nhưng quyết định cuối cùng về hướng đi của bạn không nên chỉ dựa trên mong muốn của họ.\n",
       "messageParagraphs": [
         {
@@ -17802,7 +17802,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-11",
       "image": "/cards/11. tuong phien.webp",
-      "title": "TƯỚNG PHIÊN",
+      "title": "Tướng Phiên",
       "message": "Không phải mọi thử thách trong công việc đều đến từ năng lực của chính bạn. Có những lúc, vấn đề đến từ môi trường làm việc, một đối thủ, một cách làm khác với bạn hoặc một tình huống mà bạn chưa từng gặp.  Điều quan trọng là bạn đối diện với sự khác biệt đó như một trở ngại cần né tránh, hay như một vấn đề cần hiểu rõ để tìm cách xử lý.",
       "messageParagraphs": [
         {
@@ -18084,7 +18084,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-12",
       "image": "/cards/12. lao van.webp",
-      "title": "LÃO VĂN",
+      "title": "Lão Văn",
       "message": "Không phải kinh nghiệm nào cũng cần được thể hiện bằng việc nói thật nhiều hay trực tiếp đứng ra giải quyết mọi chuyện. Trong công việc, có những lúc điều có giá trị nhất bạn có thể mang lại là khả năng nhìn vấn đề đủ lâu, hiểu bối cảnh và đưa ra một lời khuyên đúng lúc.\n",
       "messageParagraphs": [
         {
@@ -18394,7 +18394,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-13",
       "image": "/cards/13. lao vo.webp",
-      "title": "LÃO VÕ",
+      "title": "Lão Võ",
       "message": "Kinh nghiệm chỉ thực sự có giá trị khi nó đã được kiểm chứng qua hành động. Có những bài học không thể học chỉ bằng lý thuyết; bạn cần trực tiếp làm, xử lý vấn đề và chịu trách nhiệm với kết quả để hiểu công việc thực sự vận hành như thế nào.",
       "messageParagraphs": [
         {
@@ -18718,7 +18718,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-14",
       "image": "/cards/14. Lao tieu.webp",
-      "title": "LÃO TIỀU/ LÃO CHÀI",
+      "title": "Lão Tiều",
       "message": "Không phải công việc có giá trị nhất lúc nào cũng là công việc nổi bật nhất. Có những kết quả được tạo nên từ những việc rất bình thường nhưng cần được làm đều đặn, cẩn thận và đủ lâu để nhìn thấy thành quả.",
       "messageParagraphs": [
         {
@@ -19020,7 +19020,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-15",
       "image": "/cards/15. ninh goc.webp",
-      "title": "NỊNH GỘC",
+      "title": "Nịnh Gộc",
       "message": "Trong môi trường làm việc, quyền lực không chỉ đến từ chức danh mà còn đến từ các mối quan hệ và khả năng tạo ảnh hưởng. Khi một người bắt đầu sử dụng quyền lực vì lợi ích riêng, điều quan trọng là bạn cần nhìn vào những gì họ thực sự làm và cách mọi việc diễn ra, thay vì chỉ tin vào lời nói của họ. ",
       "messageParagraphs": [
         {
@@ -19281,7 +19281,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-16",
       "image": "/cards/16. ninh mut.webp",
-      "title": "NỊNH MỤT",
+      "title": "Nịnh Mụt",
       "message": "Không phải người có ảnh hưởng luôn là người đứng ở vị trí cao nhất. Có những người tạo lợi thế cho mình bằng cách đứng gần người có quyền lực, biết tìm đúng người để nhờ giúp đỡ và điều chỉnh cách hành xử để có thêm cơ hội phát triển. ",
       "messageParagraphs": [
         {
@@ -19558,7 +19558,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-17",
       "image": "/cards/17. ninh chau.webp",
-      "title": "NỊNH CHẨU",
+      "title": "Nịnh Chẩu",
       "message": "Một quyết định nhanh không phải lúc nào cũng là quyết định đúng. Trong công việc, nếu bạn thường xuyên thay đổi hướng đi theo ý kiến của người khác hoặc lợi ích trước mắt, bạn có thể bỏ lỡ cơ hội xây dựng định hướng nghề nghiệp rõ ràng cho bản thân. ",
       "messageParagraphs": [
         {
@@ -19777,7 +19777,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-18",
       "image": "/cards/18. mu quy toc.webp",
-      "title": "MỤ QUÝ TỘC/ MỤ LÀNH",
+      "title": "Mụ Quý Tộc",
       "message": "Kinh nghiệm xã hội là một dạng năng lực nghề nghiệp, đặc biệt khi công việc đòi hỏi bạn hiểu người khác và biết cách xử lý tình huống. Nhưng giúp đỡ người khác không có nghĩa là phải làm thay họ; một sự hỗ trợ tốt vẫn cần để người kia có cơ hội tự trưởng thành.",
       "messageParagraphs": [
         {
@@ -20016,7 +20016,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-19",
       "image": "/cards/19. mu ac.webp",
-      "title": "MỤ ÁC",
+      "title": "Mụ Ác",
       "message": "Không phải lời góp ý nào cũng là hướng dẫn, và không phải tiêu chuẩn nào cũng phù hợp với tất cả mọi người. Trong công việc, bạn cần biết phân biệt giữa những phản hồi giúp mình tiến bộ và những phán xét khiến mình luôn cảm thấy phải chứng minh bản thân. ",
       "messageParagraphs": [
         {
@@ -20266,7 +20266,7 @@ export const readingsByTopic = {
     {
       "id": "sự-nghiệp-20",
       "image": "/cards/20. mu tieu.webp",
-      "title": "MỤ TIỀU/ MỤ CHÀI",
+      "title": "Mụ Tiều",
       "message": "Một công việc bền vững không nhất thiết phải hào nhoáng. Nhiều giá trị được tạo ra từ những người âm thầm làm tốt những việc thiết thực mỗi ngày. Hãy nhìn vào những gì công việc thực sự giúp bạn xây dựng, thay vì chỉ quan tâm đến việc nó nổi bật đến đâu trong mắt người khác. ",
       "messageParagraphs": [
         {
@@ -21020,7 +21020,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-01",
       "image": "/cards/1. kep van.webp",
-      "title": "KÉP VĂN",
+      "title": "Kép Văn",
       "message": "Việc học không chỉ được đo bằng số giờ bạn ngồi trước sách vở hay một con điểm cuối kỳ. Điều quan trọng hơn là bạn có thực sự hiểu mình đang học để làm gì, đang học theo cách nào và những nỗ lực hiện tại có đưa mình đến gần mục tiêu hay không.",
       "messageParagraphs": [
         {
@@ -21389,7 +21389,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-02",
       "image": "/cards/2. kep vo.webp",
-      "title": "KÉP VÕ",
+      "title": "Kép Võ",
       "message": "Có những giai đoạn việc học cần nhiều hơn sự hiểu biết: bạn cần đủ kỷ luật để bắt tay vào làm, đủ kiên trì để tiếp tục khi kết quả chưa đến ngay và đủ bản lĩnh để không bỏ cuộc chỉ vì một lần thất bại. Nhưng nỗ lực chỉ thực sự có ích khi bạn biết mình đang nỗ lực vì điều gì.",
       "messageParagraphs": [
         {
@@ -21739,7 +21739,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-03",
       "image": "/cards/4. kep ran.webp",
-      "title": "KÉP RẰN",
+      "title": "Kép Rằn",
       "message": "Bạn có thể đang ở một giai đoạn rất muốn chứng minh rằng mình làm được, đặc biệt khi từng bị nghi ngờ hoặc thất vọng về kết quả. Hãy giữ nguồn năng lượng đó, nhưng đừng để một lần điểm thấp, một lời nhận xét hay thành tích của người khác quyết định cách bạn nhìn nhận chính mình.",
       "messageParagraphs": [
         {
@@ -22095,7 +22095,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-04",
       "image": "/cards/3. kep con.webp",
-      "title": "KÉP CON",
+      "title": "Kép Con",
       "message": "Không phải việc học nào cũng cần bắt đầu bằng việc bạn phải biết mình sẽ trở thành ai. Có những giai đoạn quan trọng nhất chỉ là cho phép bản thân thử, sai, tò mò và khám phá xem điều gì thực sự phù hợp với mình.",
       "messageParagraphs": [
         {
@@ -22477,7 +22477,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-05",
       "image": "/cards/5. dao chien.webp",
-      "title": "ĐÀO CHIẾN/ ĐÀO VÕ",
+      "title": "Đào Chiến",
       "message": "Có những lúc bạn cần tự mình đứng lên và xử lý vấn đề thay vì chờ mọi thứ trở nên dễ dàng hơn. Nhưng mạnh mẽ không có nghĩa là phải tự làm tất cả; biết khi nào cần hành động và khi nào cần lắng nghe cũng là một phần của bản lĩnh.",
       "messageParagraphs": [
         {
@@ -22829,7 +22829,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-06",
       "image": "/cards/6. Dao bi.webp",
-      "title": "ĐÀO BI/ ĐÀO THƯƠNG",
+      "title": "Đào Bi",
       "message": "Việc học không chỉ có điểm số; nó còn liên quan đến cảm giác bạn có đang đủ tốt, có đang làm người khác thất vọng và liệu những kỳ vọng xung quanh đang ảnh hưởng đến bạn đến mức nào. Đừng để một kết quả học tập trở thành cách duy nhất bạn đánh giá giá trị của mình.",
       "messageParagraphs": [
         {
@@ -23142,7 +23142,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-07",
       "image": "/cards/7. dao lang.webp",
-      "title": "ĐÀO LẲNG",
+      "title": "Đào Lẳng",
       "message": "Bạn có thể có khả năng tạo ấn tượng và khiến người khác chú ý đến mình, nhưng sự công nhận không nên trở thành lý do duy nhất khiến bạn học. Điều quan trọng là biết mình đang xây dựng năng lực thật hay chỉ đang cố tạo ra hình ảnh về một người giỏi.",
       "messageParagraphs": [
         {
@@ -23442,7 +23442,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-08",
       "image": "/cards/8. dao dien.webp",
-      "title": "ĐÀO ĐIÊN",
+      "title": "Đào Điên",
       "message": "Không phải lúc nào cảm giác hỗn loạn cũng có nghĩa là bạn đang đi sai hướng. Có thể bạn đang chịu quá nhiều áp lực, đang cố thích nghi với một thay đổi hoặc đang che giấu sự bất an bằng cách tỏ ra rằng mình vẫn ổn.\n",
       "messageParagraphs": [
         {
@@ -23797,7 +23797,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-09",
       "image": "/cards/9. tuong goc.webp",
-      "title": "TƯỚNG GỘC/ TƯỚNG LỚN",
+      "title": "Tướng Gộc",
       "message": "Mục tiêu cao có thể giúp bạn tiến xa, nhưng một mục tiêu chỉ thực sự có ích khi nó được chuyển thành những bước đi cụ thể. Đừng vì quá tập trung vào thành tích cuối cùng mà bỏ qua những kiến thức, kỹ năng và nền tảng bạn cần xây dựng trên đường đi.\n",
       "messageParagraphs": [
         {
@@ -24191,7 +24191,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-10",
       "image": "/cards/10. tuong lac.webp",
-      "title": "TƯỚNG NHỎ/ TƯỚNG LÁC",
+      "title": "Tướng Lác",
       "message": "Bạn có thể đang biết mình cần học, nhưng lại rất dễ bị kéo sang một việc khác, một phương pháp khác hoặc một mục tiêu khác. Trước khi thay đổi hướng tiếp theo, hãy cho mình đủ thời gian để biết điều gì thực sự phù hợp thay vì liên tục bắt đầu lại.\n",
       "messageParagraphs": [
         {
@@ -24528,7 +24528,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-11",
       "image": "/cards/11. tuong phien.webp",
-      "title": "TƯỚNG PHIÊN",
+      "title": "Tướng Phiên",
       "message": "Có những khó khăn trong học tập không đến từ việc bạn yếu hơn, mà vì bạn đang gặp một điều rất khác với những gì mình từng quen thuộc. Khi cách học cũ không còn hiệu quả, đừng vội kết luận rằng mình không đủ khả năng. Hãy xem sự khó khăn đó đang cho bạn biết điều gì cần thay đổi. ",
       "messageParagraphs": [
         {
@@ -24810,7 +24810,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-12",
       "image": "/cards/12. lao van.webp",
-      "title": "LÃO VĂN",
+      "title": "Lão Văn",
       "message": "Không phải lúc nào học tốt cũng là học thêm thật nhiều. Có những lúc điều bạn cần nhất là một lời khuyên đúng, một người có kinh nghiệm hoặc một khoảng lùi đủ để nhìn lại cách mình đang học.\n",
       "messageParagraphs": [
         {
@@ -25120,7 +25120,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-13",
       "image": "/cards/13. lao vo.webp",
-      "title": "LÃO VÕ",
+      "title": "Lão Võ",
       "message": "Học tập không chỉ cần hiểu mà còn cần kỷ luật để biến điều đã hiểu thành kết quả thực tế. Nhưng kỷ luật có giá trị nhất khi giúp bạn duy trì việc học lâu dài, chứ không biến mỗi ngày thành một cuộc ép buộc bản thân. ",
       "messageParagraphs": [
         {
@@ -25441,7 +25441,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-14",
       "image": "/cards/14. Lao tieu.webp",
-      "title": "LÃO TIỀU/ LÃO CHÀI",
+      "title": "Lão Tiều",
       "message": "Không phải mọi kiến thức đều đến từ sách vở hay lớp học. Có những điều chỉ thực sự hiểu khi bạn tự làm, tự va chạm và nhìn thấy cách kiến thức hoạt động trong đời sống.",
       "messageParagraphs": [
         {
@@ -25740,7 +25740,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-15",
       "image": "/cards/15. ninh goc.webp",
-      "title": "NỊNH GỘC",
+      "title": "Nịnh Gộc",
       "message": "Học tập có thể trở thành một cuộc cạnh tranh khi điểm số, thành tích và cơ hội khiến mọi người bắt đầu so sánh nhau. Lá bài này nhắc bạn nhận ra ranh giới giữa cạnh tranh giúp mình tiến bộ và cạnh tranh khiến mình đánh mất cách học của chính mình.",
       "messageParagraphs": [
         {
@@ -26001,7 +26001,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-16",
       "image": "/cards/16. ninh mut.webp",
-      "title": "NỊNH MỤT",
+      "title": "Nịnh Mụt",
       "message": "Khi áp lực học tập tăng lên, một con đường ngắn có thể trở nên rất hấp dẫn. Nhưng trước khi chọn cách nhanh nhất để có kết quả, hãy hỏi: cách này đang giúp mình làm việc hiệu quả hơn, hay chỉ đang đẩy khó khăn sang một thời điểm khác?",
       "messageParagraphs": [
         {
@@ -26278,7 +26278,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-17",
       "image": "/cards/17. ninh chau.webp",
-      "title": "NỊNH CHẨU",
+      "title": "Nịnh Chẩu",
       "message": "Bạn có thể học rất nhiều nhưng vẫn cảm thấy mình không biết mình đang đi đâu. Khi thiếu một hướng rõ ràng, mỗi lời khuyên hoặc cơ hội mới đều có thể khiến bạn đổi ý.",
       "messageParagraphs": [
         {
@@ -26497,7 +26497,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-18",
       "image": "/cards/18. mu quy toc.webp",
-      "title": "MỤ QUÝ TỘC/ MỤ LÀNH",
+      "title": "Mụ Quý Tộc",
       "message": "Kiến thức không chỉ nằm ở những gì bạn tự học được mà còn ở những điều người khác truyền lại cho bạn. Đồng thời, khi bạn đã có kinh nghiệm, việc biết cách chia sẻ nó cũng có thể trở thành một phần quan trọng của quá trình học.",
       "messageParagraphs": [
         {
@@ -26737,7 +26737,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-19",
       "image": "/cards/19. mu ac.webp",
-      "title": "MỤ ÁC",
+      "title": "Mụ Ác",
       "message": "Có những áp lực trong học tập không đến từ bài vở mà đến từ kỳ vọng của gia đình, thầy cô hoặc chính bạn. Điều quan trọng là nhận ra đâu là mục tiêu bạn thực sự muốn theo đuổi và đâu là tiêu chuẩn bạn đang cố đạt chỉ vì sợ làm người khác thất vọng.",
       "messageParagraphs": [
         {
@@ -26987,7 +26987,7 @@ export const readingsByTopic = {
     {
       "id": "học-tập-20",
       "image": "/cards/20. mu tieu.webp",
-      "title": "MỤ TIỀU/ MỤ CHÀI",
+      "title": "Mụ Tiều",
       "message": "Có những bài học rất thiết thực không xuất hiện trong giáo trình mà đến từ cách bạn sống, làm việc và xử lý những tình huống hằng ngày. Đừng xem nhẹ những trải nghiệm đời sống chỉ vì chúng không được ghi thành một điểm số.",
       "messageParagraphs": [
         {

@@ -143,3 +143,14 @@ h1,h2,h3{font-family:"LNTH Daybreaker",Georgia,serif!important;font-weight:400!i
   .reading-prompt{font-size:18px;margin-top:10px}
   .reading-table .dealing-area{margin-top:225px}
 }
+
+/* Keep the ornamental frame attached to the panel, outside its scrolling text. */
+.detail-modal section.text-detail{box-sizing:border-box;padding:14px;overflow:hidden}
+.detail-modal section.text-detail::before{z-index:2}
+.detail-modal section.text-detail::after{display:none}
+.detail-scroll::after{content:"✦";display:block;margin-top:24px;text-align:center;color:#edc56a;font-size:13px}
+.detail-modal section.text-detail .detail-scroll{box-sizing:border-box;max-height:calc(100svh - 58px);overflow-y:auto;overscroll-behavior:contain;padding:clamp(58px,7vw,108px) clamp(42px,8vw,132px)}
+.detail-scroll>span{display:block;text-align:center;color:#e9bd65;font-size:10px;letter-spacing:.2em;text-transform:uppercase}
+@media(max-width:680px){
+  .detail-modal section.text-detail .detail-scroll{max-height:calc(100svh - 50px);padding:51px 16px 40px}
+}
