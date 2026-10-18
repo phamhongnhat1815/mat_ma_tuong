@@ -79,15 +79,6 @@ h1,h2,h3{font-family:"LNTH Daybreaker",Georgia,serif!important;font-weight:400!i
 .orbit{position:fixed;z-index:30;inset:0;pointer-events:none}.orbit-cards{position:relative;width:100%;height:100%}.orbit-card{position:fixed;z-index:2;left:50%;top:74svh;width:clamp(54px,6vw,86px);aspect-ratio:3311/5447;padding:0;border:1px solid #f1ca788f;background:#3a0d12;box-shadow:0 11px 24px #00000070;opacity:0;transform:translate(-50%,-50%) translateY(-23svh) scale(.72);animation:dealToOrbit .62s cubic-bezier(.16,.8,.2,1) var(--delay) both;transform-origin:center;pointer-events:none}.orbit-card img{display:block;width:100%;height:100%;object-fit:cover}.orbit-cards.ready .orbit-card{opacity:1;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle));transition:transform .55s cubic-bezier(.2,.75,.2,1);pointer-events:auto;cursor:pointer}.orbit-cards.ready .orbit-card:hover{transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle)) scale(1.08)}@keyframes dealToOrbit{0%{opacity:0;transform:translate(-50%,-50%) translateY(-23svh) scale(.72)}25%{opacity:1}100%{opacity:1;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle))}}.orbit-cards.picking .orbit-card:not(.chosen){animation:fadeOrbit .45s ease forwards!important}.orbit-cards.picking .orbit-card.chosen{z-index:90;animation:liftAndReveal 1.55s cubic-bezier(.16,.8,.18,1) forwards!important}.orbit-card.chosen.revealed img{animation:cardFlip .58s cubic-bezier(.2,.78,.2,1) both}@keyframes fadeOrbit{to{opacity:0;transform:translate(-50%,-50%) translate(var(--x),var(--y)) scale(.35);filter:blur(5px)}}@keyframes liftAndReveal{0%{opacity:1;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle))}52%{transform:translate(-50%,-50%) translateY(-25svh) rotate(0) scale(1.1)}100%{transform:translate(-50%,-50%) translate(-25vw,-32svh) rotate(0) scale(1.28);box-shadow:0 0 0 2px #f0ca78,0 0 52px #e5ae4da8}}@keyframes cardFlip{0%,42%{transform:rotateY(90deg);filter:brightness(.55)}100%{transform:rotateY(0);filter:none}}.reading-dealt .reshuffle-button{position:fixed;z-index:45;top:130px;right:5vw;margin:0;padding:9px 12px;border:1px solid #e8bf6b8c;background:#21090dc7}.reading-focus .focus-card{animation:none;transform:rotate(0)}
 @media(max-width:760px){.ritual-inputs{grid-template-columns:1fr}.ritual-modal section{padding:34px 24px}.orbit-card{top:74svh;width:clamp(44px,12vw,62px)}.reading-dealt .reshuffle-button{top:auto;bottom:20px;right:18px}.orbit-cards.picking .orbit-card.chosen{animation-name:liftAndRevealMobile!important}@keyframes liftAndRevealMobile{0%{opacity:1;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle))}52%{transform:translate(-50%,-50%) translateY(-24svh) rotate(0) scale(1.08)}100%{transform:translate(-50%,-50%) translate(-21vw,-29svh) rotate(0) scale(1.17)}}}
 
-/* Ripple hover: neighbouring cards respond in a small travelling wave. */
-.orbit-cards.ready .orbit-card:hover{z-index:20;animation:waveCenter .56s cubic-bezier(.2,.75,.25,1) both!important}.orbit-cards.ready .orbit-card:hover + .orbit-card{animation:waveNear .56s ease .045s both!important}.orbit-cards.ready .orbit-card:hover + .orbit-card + .orbit-card{animation:waveFar .56s ease .09s both!important}.orbit-cards.ready .orbit-card:has(+ .orbit-card:hover){animation:waveNear .56s ease .045s both!important}.orbit-cards.ready .orbit-card:has(+ .orbit-card + .orbit-card:hover){animation:waveFar .56s ease .09s both!important}@keyframes waveCenter{0%,100%{transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle)) scale(1)}35%{transform:translate(-50%,-50%) translate(var(--x),calc(var(--y) - 7px)) rotate(var(--angle)) scale(1.035)}}@keyframes waveNear{0%,100%{transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle))}38%{transform:translate(-50%,-50%) translate(var(--x),calc(var(--y) - 5px)) rotate(var(--angle))}}@keyframes waveFar{0%,100%{transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle))}40%{transform:translate(-50%,-50%) translate(var(--x),calc(var(--y) - 3px)) rotate(var(--angle))}}
-
-/* Card hover and one-card reveal stay centred instead of travelling sideways. */
-.orbit-cards.ready .orbit-card:hover{z-index:20}.orbit-cards.picking .orbit-card.chosen{animation:liftAndRevealCentered 1.55s cubic-bezier(.16,.8,.18,1) forwards!important}@keyframes liftAndRevealCentered{0%{opacity:1;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle)) scale(1)}52%{opacity:1;transform:translate(-50%,-50%) translateY(-25svh) rotate(0) scale(1.14)}100%{opacity:1;transform:translate(-50%,-50%) translateY(-29svh) rotate(0) scale(1.42);box-shadow:0 0 0 2px #f0ca78,0 0 52px #e5ae4da8}}.orbit-card.chosen.revealed img{animation:cardRevealGrow .62s cubic-bezier(.2,.78,.2,1) both!important}@keyframes cardRevealGrow{0%{transform:rotateY(90deg) scale(.78);filter:brightness(.55)}100%{transform:rotateY(0) scale(1);filter:none}}@media(max-width:760px){.orbit-cards.picking .orbit-card.chosen{animation-name:liftAndRevealCenteredMobile!important}@keyframes liftAndRevealCenteredMobile{0%{opacity:1;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle)) scale(1)}52%{opacity:1;transform:translate(-50%,-50%) translateY(-23svh) rotate(0) scale(1.1)}100%{opacity:1;transform:translate(-50%,-50%) translateY(-27svh) rotate(0) scale(1.25)}}}
-
-/* Stable ripple implementation: transitions only, never a competing keyframe animation. */
-.orbit-cards.ready:not(.picking) .orbit-card{animation:none!important;transition:transform .22s ease,filter .22s ease!important}.orbit-cards.ready:not(.picking) .orbit-card:hover{transform:translate(-50%,-50%) translate(var(--x),calc(var(--y) - 5px)) rotate(var(--angle)) scale(1.025)!important}.orbit-cards.ready:not(.picking) .orbit-card:hover + .orbit-card,.orbit-cards.ready:not(.picking) .orbit-card:has(+ .orbit-card:hover){transform:translate(-50%,-50%) translate(var(--x),calc(var(--y) - 3px)) rotate(var(--angle))!important}.orbit-cards.ready:not(.picking) .orbit-card:hover + .orbit-card + .orbit-card,.orbit-cards.ready:not(.picking) .orbit-card:has(+ .orbit-card + .orbit-card:hover){transform:translate(-50%,-50%) translate(var(--x),calc(var(--y) - 1px)) rotate(var(--angle))!important}
-
 /* Clear the whole fan first, then let the chosen card grow into its result size. */
 .orbit-cards.picking .orbit-card:not(.chosen){animation:fanDissolve .34s cubic-bezier(.3,.7,.2,1) forwards!important;pointer-events:none}@keyframes fanDissolve{to{opacity:0;visibility:hidden;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle)) scale(.3);filter:blur(7px)}}.orbit-cards.picking .orbit-card.chosen{animation:liftToResult 1.5s cubic-bezier(.16,.8,.18,1) forwards!important}@keyframes liftToResult{0%{opacity:1;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle)) scale(1)}100%{opacity:1;transform:translate(-50%,-50%) translateY(-29svh) rotate(0) scale(2.56);box-shadow:0 0 0 2px #f0ca78,0 0 52px #e5ae4da8}}.reading-focus .focus-card{width:clamp(120px,11vw,150px)!important;transform:rotate(0)}@media(max-width:760px){.orbit-cards.picking .orbit-card.chosen{animation-name:liftToResultMobile!important}@keyframes liftToResultMobile{0%{opacity:1;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle)) scale(1)}100%{opacity:1;transform:translate(-50%,-50%) translateY(-27svh) rotate(0) scale(2.7)}}.reading-focus .focus-card{width:110px!important}}
 
@@ -125,9 +116,9 @@ h1,h2,h3{font-family:"LNTH Daybreaker",Georgia,serif!important;font-weight:400!i
 .focus-copy .docx-message{max-width:460px;margin:0 auto;color:#edddba;font-size:14px}
 @media(max-width:760px){.detail-modal section.text-detail .detail-content{font-size:14px}}
 
-/* The topic and navigation stay in view while reading a card. */
+/* Navigation follows the viewport; the topic stays at the top of the page. */
 .reading-table .reading-navigation{position:fixed;z-index:60;top:28px;left:5vw;right:5vw}
-.reading-table .reading-heading{position:fixed;z-index:61;top:24px;left:50%;width:min(450px,42vw);transform:translateX(-50%);text-align:center}
+.reading-table .reading-heading{position:absolute;z-index:61;top:24px;left:50%;width:min(450px,42vw);transform:translateX(-50%);text-align:center}
 .reading-heading.is-hidden{visibility:hidden}
 .reading-table .reading-heading .reading-header{position:relative;top:auto;left:auto;width:100%!important;margin:0!important;padding:18px 28px!important;transform:none}
 .reading-table .reading-heading .reading-header h1{font-size:clamp(42px,5.5vw,76px)!important;padding:8px 18px!important;margin-top:10px!important}
@@ -155,9 +146,8 @@ h1,h2,h3{font-family:"LNTH Daybreaker",Georgia,serif!important;font-weight:400!i
   .detail-modal section.text-detail .detail-scroll{max-height:calc(100svh - 50px);padding:51px 16px 40px}
 }
 
-/* A travelling wave starts only after the final card lands. */
-.orbit-cards.ready:not(.picking) .orbit-card img{animation:tuongFanWave 3.6s ease-in-out var(--wave-delay) infinite;transform-origin:center bottom;will-change:transform}
-@keyframes tuongFanWave{0%,100%{transform:translateY(0) rotate(0)}25%{transform:translateY(-13px) rotate(1.5deg)}75%{transform:translateY(8px) rotate(-1.5deg)}}
+/* The fan rests until the pointer or keyboard focus reaches a card. */
+.orbit-cards.ready:not(.picking) .orbit-card img{animation:none;pointer-events:none}
 .reading-focus{isolation:isolate;position:relative;background:none;border-color:transparent}
 .reading-focus::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#5a1a1b99,#21090dd9);border-top:1px solid #e9bd6680;border-bottom:1px solid #e9bd6680;opacity:0;transform:scale(.94);transition:opacity .65s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
 .reading-focus.is-presented::before{opacity:1;transform:scale(1)}
@@ -168,3 +158,30 @@ h1,h2,h3{font-family:"LNTH Daybreaker",Georgia,serif!important;font-weight:400!i
   .orbit-cards.ready:not(.picking) .orbit-card img{animation:none}
   .reading-focus::before,.reading-focus .focus-copy,.reading-focus .focus-card-inner{transition:none}
 }
+
+/* Subtle top-corner emphasis follows the pointer without changing the stacking order. */
+.orbit-card{user-select:none;-webkit-user-select:none;top:68svh;width:clamp(88px,8.8vw,126px);border:0;background:transparent;box-shadow:none}
+.orbit-card img{box-sizing:border-box;border:1px solid #f1ca78b3;box-shadow:0 12px 25px #00000088;pointer-events:none}
+.orbit-cards.ready:not(.picking) .orbit-card{animation:none!important;opacity:1;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle));transition:transform .3s ease}
+.orbit-cards.ready:not(.picking) .orbit-card:hover{transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle));z-index:2}
+.orbit-cards.ready:not(.picking) .orbit-card img{transform:translateY(var(--wave-y,0px)) rotate(var(--wave-tilt,0deg));transition:transform .28s cubic-bezier(.2,.7,.25,1);transform-origin:center bottom;will-change:transform}
+.orbit-cards.ready:not(.picking) .orbit-card:focus-visible{outline:2px solid #ffe4a0;outline-offset:5px;z-index:2}
+@media(max-width:760px){.orbit-card{width:clamp(68px,18vw,88px);top:68svh}}
+@media(prefers-reduced-motion:reduce){.orbit-cards.ready:not(.picking) .orbit-card img{transform:none;transition:none}}
+
+/* Selection stays in the fan until the reader explicitly flips the card. */
+.orbit-cards.ready.has-selection .orbit-card:not(.is-selected) img{filter:brightness(.52) saturate(.55)}
+.orbit-cards.ready .orbit-card.is-selected img{filter:none;border-color:#f0ca78;box-shadow:0 0 0 1px #f0ca7880,0 0 24px #e8bf6b55}
+.orbit-cards.ready:not(.picking) .orbit-card img{transition:transform .28s cubic-bezier(.2,.7,.25,1),filter .25s ease,border-color .25s ease,box-shadow .25s ease}
+.flip-chosen-button{position:fixed;z-index:45;top:38svh;left:50%;transform:translateX(-50%);padding:14px 34px;border:1px solid #f0ca78;background:linear-gradient(135deg,#8c3028,#46131a);color:#ffe9b8;font:400 25px/1.2 "LNTH Daybreaker",Georgia,serif;letter-spacing:.08em;cursor:pointer;box-shadow:0 8px 28px #0008,0 0 22px #d9ae5633;animation:flipButtonEnter .25s ease both}
+.flip-chosen-button:hover{background:#9a382c;box-shadow:0 8px 30px #0008,0 0 28px #d9ae5666}
+.flip-chosen-button:focus-visible{outline:2px solid #fff1cc;outline-offset:5px}
+@keyframes flipButtonEnter{from{opacity:0;transform:translate(-50%,8px)}to{opacity:1;transform:translate(-50%,0)}}
+@media(max-width:680px){.flip-chosen-button{top:39svh;font-size:22px;padding:12px 28px}}
+@media(prefers-reduced-motion:reduce){.flip-chosen-button{animation:none}}
+/* Move the selected hit area with its artwork so its raised corner can be clicked again. */
+.orbit-cards.ready:not(.picking) .orbit-card.is-selected{transform:translate(-50%,-50%) translate(var(--x),calc(var(--y) - 48px)) rotate(calc(var(--angle) - 3deg))}
+.orbit-cards.ready:not(.picking) .orbit-card.is-selected img{transform:none}
+
+/* The topic belongs to the top of the page; navigation alone follows scrolling. */
+.reading-table .reading-heading{pointer-events:none;will-change:opacity}
