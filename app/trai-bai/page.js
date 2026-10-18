@@ -80,7 +80,43 @@ export default function TraiBai() {
     const origin = flightOrigin.current;
     const target = card.getBoundingClientRect();
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (!origin || reduced) { setRevealed(true); return; }
+    const page = card.closest("main");
+    const startScroll = window.scrollY;
+    const scrollTarget = Math.max(0, startScroll + target.top - 80);
+    // Leave enough room below the result to align its image beneath the fixed navigation.
+    page.style.setProperty("--result-page-height", `${scrollTarget + window.innerHeight}px`);
+    let scrollFrame = 0;
+    let scrollCancelled = false;
+    const cancelScroll = () => {
+      scrollCancelled = true;
+      window.cancelAnimationFrame(scrollFrame);
+    };
+    const cleanupScroll = () => {
+      cancelScroll();
+      window.removeEventListener("wheel", cancelScroll);
+      window.removeEventListener("touchstart", cancelScroll);
+      window.removeEventListener("keydown", cancelScroll);
+      page.style.removeProperty("--result-page-height");
+    };
+    if (reduced) {
+      window.scrollTo({ top: scrollTarget, behavior: "instant" });
+      setRevealed(true);
+      return cleanupScroll;
+    }
+    // Match the flight duration so scrolling feels like part of the same movement.
+    const startedAt = performance.now();
+    const scrollWithFlight = (now) => {
+      if (scrollCancelled) return;
+      const progress = Math.min(1, (now - startedAt) / 1100);
+      const eased = progress * progress * (3 - 2 * progress);
+      window.scrollTo({ top: startScroll + (scrollTarget - startScroll) * eased, behavior: "instant" });
+      if (progress < 1) scrollFrame = window.requestAnimationFrame(scrollWithFlight);
+    };
+    window.addEventListener("wheel", cancelScroll, { passive: true });
+    window.addEventListener("touchstart", cancelScroll, { passive: true });
+    window.addEventListener("keydown", cancelScroll);
+    scrollFrame = window.requestAnimationFrame(scrollWithFlight);
+    if (!origin) { setRevealed(true); return cleanupScroll; }
     const dx = origin.centerX - target.left - target.width / 2;
     const dy = origin.centerY - target.top - target.height / 2;
     const flight = card.animate([
@@ -89,7 +125,7 @@ export default function TraiBai() {
       { transform: "translate(0, 0) rotate(0) scale(1)", offset: 1 },
     ], { duration: 1100, easing: "cubic-bezier(.22,.72,.2,1)" });
     flight.onfinish = () => setRevealed(true);
-    return () => flight.cancel();
+    return () => { flight.cancel(); cleanupScroll(); };
   }, [view, selected]);
 
   useEffect(() => {

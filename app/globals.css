@@ -185,3 +185,6 @@ h1,h2,h3{font-family:"LNTH Daybreaker",Georgia,serif!important;font-weight:400!i
 
 /* The topic belongs to the top of the page; navigation alone follows scrolling. */
 .reading-table .reading-heading{pointer-events:none;will-change:opacity}
+
+/* Allow the revealed image to settle below the fixed logo on short mobile screens. */
+.reading-table.reading-dealt:has(.reading-focus){min-height:var(--result-page-height,100svh)}
