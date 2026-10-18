@@ -89,7 +89,7 @@ h1,h2,h3{font-family:"LNTH Daybreaker",Georgia,serif!important;font-weight:400!i
 .orbit-cards.ready:not(.picking) .orbit-card{animation:none!important;transition:transform .22s ease,filter .22s ease!important}.orbit-cards.ready:not(.picking) .orbit-card:hover{transform:translate(-50%,-50%) translate(var(--x),calc(var(--y) - 5px)) rotate(var(--angle)) scale(1.025)!important}.orbit-cards.ready:not(.picking) .orbit-card:hover + .orbit-card,.orbit-cards.ready:not(.picking) .orbit-card:has(+ .orbit-card:hover){transform:translate(-50%,-50%) translate(var(--x),calc(var(--y) - 3px)) rotate(var(--angle))!important}.orbit-cards.ready:not(.picking) .orbit-card:hover + .orbit-card + .orbit-card,.orbit-cards.ready:not(.picking) .orbit-card:has(+ .orbit-card + .orbit-card:hover){transform:translate(-50%,-50%) translate(var(--x),calc(var(--y) - 1px)) rotate(var(--angle))!important}
 
 /* Clear the whole fan first, then let the chosen card grow into its result size. */
-.orbit-cards.picking .orbit-card:not(.chosen){animation:fanDissolve .34s cubic-bezier(.3,.7,.2,1) forwards!important;pointer-events:none}@keyframes fanDissolve{to{opacity:0;visibility:hidden;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle)) scale(.3);filter:blur(7px)}}.orbit-cards.picking .orbit-card.chosen{animation:liftToResult 1.5s cubic-bezier(.16,.8,.18,1) forwards!important}@keyframes liftToResult{0%{opacity:1;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle)) scale(1)}100%{opacity:1;transform:translate(-50%,-50%) translateY(-29svh) rotate(0) scale(2.56);box-shadow:0 0 0 2px #f0ca78,0 0 52px #e5ae4da8}}.reading-focus .focus-card{width:clamp(120px,11vw,150px)!important;transform:rotate(0)!important}@media(max-width:760px){.orbit-cards.picking .orbit-card.chosen{animation-name:liftToResultMobile!important}@keyframes liftToResultMobile{0%{opacity:1;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle)) scale(1)}100%{opacity:1;transform:translate(-50%,-50%) translateY(-27svh) rotate(0) scale(2.7)}}.reading-focus .focus-card{width:110px!important}}
+.orbit-cards.picking .orbit-card:not(.chosen){animation:fanDissolve .34s cubic-bezier(.3,.7,.2,1) forwards!important;pointer-events:none}@keyframes fanDissolve{to{opacity:0;visibility:hidden;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle)) scale(.3);filter:blur(7px)}}.orbit-cards.picking .orbit-card.chosen{animation:liftToResult 1.5s cubic-bezier(.16,.8,.18,1) forwards!important}@keyframes liftToResult{0%{opacity:1;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle)) scale(1)}100%{opacity:1;transform:translate(-50%,-50%) translateY(-29svh) rotate(0) scale(2.56);box-shadow:0 0 0 2px #f0ca78,0 0 52px #e5ae4da8}}.reading-focus .focus-card{width:clamp(120px,11vw,150px)!important;transform:rotate(0)}@media(max-width:760px){.orbit-cards.picking .orbit-card.chosen{animation-name:liftToResultMobile!important}@keyframes liftToResultMobile{0%{opacity:1;transform:translate(-50%,-50%) translate(var(--x),var(--y)) rotate(var(--angle)) scale(1)}100%{opacity:1;transform:translate(-50%,-50%) translateY(-27svh) rotate(0) scale(2.7)}}.reading-focus .focus-card{width:110px!important}}
 
 /* Once a card is chosen, remove every other card in the same render frame. */
 .orbit-cards.picking .orbit-card.is-gone{visibility:hidden!important;opacity:0!important;animation:none!important;transition:none!important;pointer-events:none!important}
@@ -153,4 +153,18 @@ h1,h2,h3{font-family:"LNTH Daybreaker",Georgia,serif!important;font-weight:400!i
 .detail-scroll>span{display:block;text-align:center;color:#e9bd65;font-size:10px;letter-spacing:.2em;text-transform:uppercase}
 @media(max-width:680px){
   .detail-modal section.text-detail .detail-scroll{max-height:calc(100svh - 50px);padding:51px 16px 40px}
+}
+
+/* A travelling wave starts only after the final card lands. */
+.orbit-cards.ready:not(.picking) .orbit-card img{animation:tuongFanWave 3.6s ease-in-out var(--wave-delay) infinite;transform-origin:center bottom;will-change:transform}
+@keyframes tuongFanWave{0%,100%{transform:translateY(0) rotate(0)}25%{transform:translateY(-13px) rotate(1.5deg)}75%{transform:translateY(8px) rotate(-1.5deg)}}
+.reading-focus{isolation:isolate;position:relative;background:none;border-color:transparent}
+.reading-focus::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,#5a1a1b99,#21090dd9);border-top:1px solid #e9bd6680;border-bottom:1px solid #e9bd6680;opacity:0;transform:scale(.94);transition:opacity .65s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.reading-focus.is-presented::before{opacity:1;transform:scale(1)}
+.reading-focus .focus-card{z-index:2;transform:none;will-change:transform}
+.reading-focus .focus-copy{animation:none;opacity:0;transform:translateY(18px);transition:opacity .65s ease .12s,transform .65s ease .12s;pointer-events:none}
+.reading-focus.is-presented .focus-copy{opacity:1;transform:none;pointer-events:auto}
+@media(prefers-reduced-motion:reduce){
+  .orbit-cards.ready:not(.picking) .orbit-card img{animation:none}
+  .reading-focus::before,.reading-focus .focus-copy,.reading-focus .focus-card-inner{transition:none}
 }
